@@ -23,8 +23,10 @@ pip install -r requirements.txt
 python assessment.py
 ```
 
+
 Additional notes:
 The assignment requested to use committer object when pulling commits from the API call; however, all commiter objects had 'login' object of the same name ('web-flow'), which will cause top committers and longest streak to be of user 'web-flow'. Hence, we will be using the author object to differentiate the users.
 
 Sample image:
+
 ![image](https://github.com/user-attachments/assets/9fcefc47-7810-4619-90b2-1dd98d9aa9b6)
